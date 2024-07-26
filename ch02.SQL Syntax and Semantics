@@ -1,6 +1,30 @@
 ### 01. 테이블에서 검색
 
+  - Q) 아래 쿼리의 실행결과를 보고 괄호()안에 적절한 문법을 고르세요.
+    - 1) TOP
+    - 2) UNTIL
+    - A) LIMIT
+    - 4) CONSTRAINT
+
+    예시쿼리) select ID, NAME from STUDENT (   ) 3
+    쿼리결과) ID     |  NAME
+          2021001  |  Brown
+          2021173  |  Charley
+          2022038  |  Max
+
 ### 02. 조건 추가해서 검색 (where, like)
 
-### 03. 
+  - Q) 다음은 where절 비교연산자와 논리연산자 에 대한 구문과 설명이다. 구문에 대한 설명이 올바르지 않은 것은 ? 
+    - 1) OrderDate BETWEEN '2024-05-01' AND '2024-05-31'
+    - 2) Profit >= 50 OR Sales >= 100
+    - 3) CITY NOT LIKE 'Mon%'
+    - A) N <>= 50 (N != 50 또는 N <> 50)
+
+### 03. 데이터 정렬 (order by)
+
+  - Q) 데이터 검색할 때 정렬하여 결과를 출력하는 명령어로 order by를 사용한다. 다음 중 
+    - '문법 순서'가 올바르게 표기된 것은 ?
+      - A) select > from > where > order by
+    - '처리 순서'가 올바르게 표기된 것은 ?
+      - A) from > where > select > order by
 
