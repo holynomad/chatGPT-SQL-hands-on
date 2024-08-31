@@ -1,4 +1,4 @@
-# chatGPT-SQL-practice
+# chatGPT-SQL-hands-on
 SQL Data Analysis &amp; Visualization Practice Guide using ChatGPT for FastCampus
 
 ## 요약
